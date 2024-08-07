@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+}
+
+.main {
+    width: 100%;
+}
+
+.film_random {
+    height: 500px;
+    background-image: url(../main/Rectangle\ 201.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.film_sections {
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.sidebar {
+    width: 274px;
+    height: 100vh;
+    background-color: #21201E;
+    color: white;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.logo {
+    margin-top: 18px;
+}
+
+.logo_watch {
+    margin-left: 36.5px;
+}
+
+.menu {
+    margin-top: 40px;
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.sidebar_link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    display: block;
+    padding: 10px;
+    transition: background-color 0.3s;
+}
+
+.sidebar_item {
+    display: flex;
+    margin-left: 36.5px;
+    align-items: center;
+    font-size: medium;
+}
+
+.logout {
+    margin-top: 100px;
+}
+
+.header {
+    padding: 40px 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header_group {
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+.header_search_profile {
+    display: flex;
+    width: 250px;
+    justify-content: space-evenly;
+}
+
+.profile {
+    display: flex;
+    width: 170px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.profile_logo {
+    width: 25px;
+    height: 25px;
+}
+
+.header_link {
+    text-decoration: none;
+    font-size: medium;
+    color: white;
+}
+
+.film_info {
+    margin-bottom: 50px;
+    margin-left: 40px;
+    /* width: 220px; */
+    /* height: 150px; */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.film_title {
+    font-size: 70px;
+}
+
+.film_description {
+    font-size: small;
+    margin-bottom: 25px;
+}
+
+.film_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.watch_button {
+    width: 140px;
+    height: 50px;
+    /* margin-top: 15px; */
+    border-radius: 14px;
+    border: 1px;
+    background-color: rgba(97, 0, 194, 1);
+    color: white;
+    /* padding: 17px, 24px, 17px, 24px; */
+    font-size: smaller;
+}
+
+.favorites_button {
+    width:  48px;
+    height: 48px;
+    border-radius: 14px;
+    border: 1px;
+    /* padding: 15px; */
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.trending__header {
+    /* background-color: rgba(55, 49, 42, 1); */
+    padding-top: 20px;
+    /* padding-left: 40px; */
+}
+
+.trending__headerName {
+    font-size: x-large;
+    color: white;
+}
+
+
+.film_sections {
+    background: conic-gradient(from -1.54deg at 28.99% 107.28%, #191817 0deg, #37312A 175.51deg, #191817 342.49deg, #191817 360deg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 40px;
+}
+
+.card {
+    width: 255px;
+    height: 301px;
+    background-size: contain;
+    background-position: center center;
+    background-image: url(../main/Rectangle\ 213.png);
+    border: 1px;
+    border-radius: 20px;
+    border-color: white;
+}
+
